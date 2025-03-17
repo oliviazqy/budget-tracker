@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Budget Tracker
+A minimalist monthly budget tracking application to help Olivia monitor, manage, and organize expenses. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The recording on how it works:
+https://www.loom.com/share/99cfedc70df14d57bad1fa74dff82242?sid=cbc15041-d3dd-46dc-ba9f-d57f2fbb8d3f
 
-## Available Scripts
+## Features
+- Set up your monthly budget
+  <img width="503" alt="Screenshot 2025-03-16 at 11 20 23 PM" src="https://github.com/user-attachments/assets/86b9fc7c-47d4-476d-907a-b42414a51508" />
 
-In the project directory, you can run:
+- Record your daily expenses
+  <img width="495" alt="Screenshot 2025-03-16 at 11 20 31 PM" src="https://github.com/user-attachments/assets/f04f45bd-93ab-4c71-9d08-872739851c9d" />
+- Track your expense category
+  <img width="494" alt="Screenshot 2025-03-16 at 11 20 43 PM" src="https://github.com/user-attachments/assets/84b0483f-8081-453c-b52f-b7f925196e83" />
+- Visualize your spend behavior
+  <img width="482" alt="Screenshot 2025-03-16 at 11 20 52 PM" src="https://github.com/user-attachments/assets/2a57c04d-fc69-41f5-abf8-de3dae957704" />
 
-### `npm start`
+### `Tech Stack`
+- React.js for the UI components
+- CSS for styling (custom implementation, no frameworks)
+- Recharts for data visualization
+- Local browser storage for data persistence
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Setup and Installation`
+1. Clone the repository:
+   git clone https://github.com/xxx/budget-tracker.git
+   cd budget-tracker
+2. Install dependencies: bashCopynpm install
+3. Start the development server: bashCopynpm start
+4. Open http://localhost:3000 to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Usage`
+Set Your Budget: Enter your monthly budget amount and click "Update"
+Add Expenses:
 
-### `npm test`
+Select a category
+Enter the amount
+Choose the date
+Click "Add Expense"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+View Summary: Check the Expense Summary section to see spending by category
+Analyze Spending: View the pie chart to understand spending distribution
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Coming Next
+- Add SMS/text message integration. This would allow me quickly log expenses via text message. 
+- Category customization
+- Provide recommendation based on purchasing behavior. Do I really need to spend over 50% of the spend on food?
