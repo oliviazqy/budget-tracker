@@ -1,0 +1,102 @@
+.expense-summary {
+  width: 100%;
+  background-color: #111;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.summary-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-category {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.category-icon {
+  font-size: 18px;
+}
+
+.category-name {
+  font-size: 15px;
+  color: #fff;
+}
+
+.expense-amount {
+  font-size: 15px;
+  color: #888;
+  font-variant-numeric: tabular-nums;
+}
+
+.has-expense {
+  color: #fff;
+}
+
+.summary-divider {
+  height: 1px;
+  background-color: #333;
+  margin: 24px 0;
+}
+
+.summary-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.total-row, .remaining-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-label, .remaining-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.total-amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+.remaining-amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0070f3; /* Vercel blue for highlighting */
+  font-variant-numeric: tabular-nums;
+}
+
+/* Add subtle hover effect */
+.expense-item:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+}
+
+/* Add padding for hover effect to work nicely */
+.expense-item {
+  padding: 8px 4px;
+  transition: background-color 0.2s;
+}

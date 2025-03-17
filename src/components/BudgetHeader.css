@@ -1,0 +1,90 @@
+.budget-header {
+  width: 100%;
+  background-color: #1a1a1a; /* Dark background like Vercel */
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.budget-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #fff;
+  letter-spacing: -0.02em; /* Vercel uses slightly tighter letter spacing */
+}
+
+.budget-input-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.budget-input {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 16px;
+  width: 180px;
+  text-align: left;
+  transition: border-color 0.2s;
+}
+
+.budget-input:focus {
+  border-color: #888;
+  outline: none;
+}
+
+.budget-update-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.budget-update-btn:hover {
+  background-color: #444;
+}
+
+.budget-info-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.budget-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-label {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.info-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Special styling for remaining value */
+.budget-info-item:first-child .info-value {
+  color: #0070f3; /* Vercel blue for highlighting */
+}
+
