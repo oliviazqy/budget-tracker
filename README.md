@@ -45,3 +45,4 @@ Analyze Spending: View the pie chart to understand spending distribution
 - Add SMS/text message integration. This would allow me quickly log expenses via text message. 
 - Category customization
 - Provide recommendation based on purchasing behavior. Do I really need to spend over 50% of the spend on food?
+- Add notification to remind people using it because the current process is manual and I might forgot using it. 
