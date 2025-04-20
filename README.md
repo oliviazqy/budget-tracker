@@ -1,5 +1,6 @@
 # Budget Tracker
 A minimalist monthly budget tracking application to help Olivia monitor, manage, and organize expenses. 
+website: https://budget-tracker-beryl-five.vercel.app/
 
 The recording on how it works:
 https://www.loom.com/share/99cfedc70df14d57bad1fa74dff82242?sid=cbc15041-d3dd-46dc-ba9f-d57f2fbb8d3f
